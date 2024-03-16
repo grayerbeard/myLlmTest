@@ -1,7 +1,7 @@
 base_url: 'http://localhost:1234/v1'
-api_key: 'not-needed'
+api_key: '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'
 questions_file: 'LLM Test.md'
 system_prompt: 'You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.'
 temperature: 0.2
-font_size: 23
-window_size: [1900, 1150]
+font_size: 18
+window_size: [1800, 900]

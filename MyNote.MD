@@ -1,8 +1,6 @@
-## Notes on This Fork From Michaels LLM Tester
+## Setting up the Virtual Environment etc under Windows
 
-# Setting up the Vertual Environment
-
-My method for running under windows is based on a conversation with Gemeni Pro AI is as follwos.
+My method for running under windows is based on a conversation with Gemeni Pro AI is as follwos. (I had all manner of requirements issues trying to run without virtual env.)
 
 Enter The Following Commands which is generally as listed in README.MD but with minor additions and tweaks.
 

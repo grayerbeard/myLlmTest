@@ -15,6 +15,15 @@ Also I found because I am in Windows and Michael uses a Mac there is an issue re
 ```
 git config core.autocrlf input 
 ```
+Then add a .gitignore file similar to this
+
+```
+myLlmTestenv/
+src/__pycache__/
+myLlmTestenv
+```
+
+
 
 Now adjust the screen size in config.yaml to significantly less than the size of your screem and the LLM parameters to what you prefer/Require.
 In my case I choose:

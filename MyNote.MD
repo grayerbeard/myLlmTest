@@ -2,9 +2,9 @@
 
 # Setting up the Vertual Environment
 
-My method based on a conversation with Gemeni Pro is as follwos. (This is for on Windows)
+My method for running under windows is based on a conversation with Gemeni Pro AI is as follwos.
 
-Enter The Following Commands which is generally as listed in README.md
+Enter The Following Commands which is generally as listed in README.MD but with minor additions and tweaks.
 
 ```
 python -m venv myLlmTestenv
@@ -12,14 +12,11 @@ python -m venv myLlmTestenv
  python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
-Also I found because I am in Windows and Michael uses a Mac there is an issue ref Windows using CRLF and MAC using just Line feed.
-
-So enter this command to set this repository to use LF like waht one does OnaMac.
+Also I found because I am in Windows and Michael uses a Mac there is an issue ref Windows using CRLF and MAC using just LF.  So enter this command to set this repository to use LF like what one does on a Mac.
 
 ```
 git config core.autocrlf input 
 ```
-
 
 Now adjust the screen size in config.yaml to significantly less than the size of your screem and the LLM parameters to what you prefer/Require.
 In my case I choose:
@@ -42,6 +39,4 @@ Then run tester with
 ```
 python main.py
 ```
-Question why am I getting messenges about OpenAI not connected when using Local LLM?
-
-Tried putting in an OpenAI code....
+Question to ponder: why am I no longer getting messenges about OpenAI not connected when using Local LLM?  Maybe the issue was to do with the crlf/lf issue.

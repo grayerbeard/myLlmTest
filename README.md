@@ -1,6 +1,6 @@
 # Obsidian LLM Testing GUI
 
-For notes on running a fork under windows see MyNotes.MD.
+For notes on running a fork under windows see MyNote.MD.
 
 ## Overview
 

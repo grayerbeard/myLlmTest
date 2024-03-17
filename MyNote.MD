@@ -24,6 +24,7 @@ git config core.autocrlf input
 Now adjust the screen size in config.yaml to significantly less than the size of your screem and the LLM parameters to what you prefer/Require.
 In my case I choose:
 
+```
 base_url: 'http://localhost:1234/v1'
 api_key: 'not-needed'
 questions_file: 'LLM Test.md'
@@ -31,6 +32,7 @@ system_prompt: 'You are an intelligent assistant. You always provide well-reason
 temperature: 0.2
 font_size: 18
 window_size: [1800, 900]
+```
 
 Now install and set up LM Studio and set up the local Inference server.
 

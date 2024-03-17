@@ -1,5 +1,7 @@
 # Obsidian LLM Testing GUI
 
+For notes on running a fork under windows see MyNotes.MD.
+
 ## Overview
 
 - This project provides a graphical user interface (GUI) application for testing local Large Language Models (LLMs) within the context of Obsidian or similar note-taking and personal knowledge management systems.
